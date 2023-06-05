@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pay-and-Ship-mockup/static/css/main.d16e134a.css",
+    "main.js": "/Pay-and-Ship-mockup/static/js/main.52e6cb19.js",
+    "static/js/787.7f562b35.chunk.js": "/Pay-and-Ship-mockup/static/js/787.7f562b35.chunk.js",
+    "static/media/NB-2002-Mule4.png": "/Pay-and-Ship-mockup/static/media/NB-2002-Mule4.cf4f951c1571f41c94d2.png",
+    "static/media/Nike-x-2.png": "/Pay-and-Ship-mockup/static/media/Nike-x-2.6e2958a6fa81616f4861.png",
+    "static/media/mac-pro.jpeg": "/Pay-and-Ship-mockup/static/media/mac-pro.06495066a1042f34b900.jpeg",
+    "static/media/NB-550-2.jpeg": "/Pay-and-Ship-mockup/static/media/NB-550-2.4ede86060dc2ee6f8b96.jpeg",
+    "static/media/nanox3.webp": "/Pay-and-Ship-mockup/static/media/nanox3.e99d10d760d21c783829.webp",
+    "static/media/Adidas-Gazelle-3.avif": "/Pay-and-Ship-mockup/static/media/Adidas-Gazelle-3.0f2895c78cad2bf21d78.avif",
+    "static/media/hp.avif": "/Pay-and-Ship-mockup/static/media/hp.b2bc9607ac2efe5f7120.avif",
+    "static/media/nike-cortez.webp": "/Pay-and-Ship-mockup/static/media/nike-cortez.b9ffe11865e32aaf2d28.webp",
+    "static/media/Adidas-Gazelle-femme.webp": "/Pay-and-Ship-mockup/static/media/Adidas-Gazelle-femme.d8858281a0b3e3509690.webp",
+    "static/media/nike-dunk-low2.jpeg": "/Pay-and-Ship-mockup/static/media/nike-dunk-low2.376815937c1fa9a5e854.jpeg",
+    "index.html": "/Pay-and-Ship-mockup/index.html",
+    "main.d16e134a.css.map": "/Pay-and-Ship-mockup/static/css/main.d16e134a.css.map",
+    "main.52e6cb19.js.map": "/Pay-and-Ship-mockup/static/js/main.52e6cb19.js.map",
+    "787.7f562b35.chunk.js.map": "/Pay-and-Ship-mockup/static/js/787.7f562b35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16e134a.css",
+    "static/js/main.52e6cb19.js"
+  ]
+}
