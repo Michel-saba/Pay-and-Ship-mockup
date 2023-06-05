@@ -8,11 +8,11 @@ import BuyProductForm from './components/buyForm/BuyProductForm';
 import './index.css';
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: 'Pay-and-Ship-mockup/',
     element: <App></App>,
   },
   {
-    path: '/purchase/:id',
+    path: 'Pay-and-Ship-mockup/purchase/:id',
     element: <BuyProductForm></BuyProductForm>,
   },
 ]);
