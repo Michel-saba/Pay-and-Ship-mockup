@@ -1,5 +1,4 @@
 import ch from '../images/Adidas-Gazelle-femme.webp';
-import mac from '../images/mac-pro.jpeg';
 import nanox3 from '../images/nanox3.webp';
 import cortez from '../images/nike-cortez.webp';
 import gazelle from '../images/Adidas-Gazelle-3.avif';
@@ -7,7 +6,6 @@ import nb550 from '../images/NB-550-2.jpeg';
 import nb2002 from '../images/NB-2002-Mule4.png';
 import NLD from '../images/nike-dunk-low2.jpeg';
 import NikeX from '../images/Nike-x-2.png';
-import hp from '../images/hp.avif';
 
 export const data = [
   {
@@ -28,17 +26,16 @@ export const data = [
     price: '60',
     description: 'Barely worn black Reebok Nano X3 size 46',
   },
-
   {
-    type: 'MacBook',
+    type: 'Baskets',
     id: 3,
-    imageUrl: mac,
-    mark: 'Appel',
-    title: 'Mac Pro',
-    price: '1200',
-    description:
-      'Apple Mac Pro intel Xeon 3,2 GHz - 64 Go RAM - 4 To SSD (2019) (A1991) Pro 580X',
+    mark: 'Nike',
+    imageUrl: cortez,
+    title: 'Nike Cortez',
+    price: '80',
+    description: 'Brand new white and green Nike Cortez size 44',
   },
+
   {
     type: 'Baskets',
     id: 4,
@@ -77,6 +74,15 @@ export const data = [
   },
   {
     type: 'Baskets',
+    id: 7,
+    mark: 'Nike',
+    imageUrl: cortez,
+    title: 'Nike Cortez',
+    price: '80',
+    description: 'Brand new white and green Nike Cortez size 44',
+  },
+  {
+    type: 'Baskets',
     id: 8,
     mark: 'Nike',
     imageUrl: NLD,
@@ -93,16 +99,5 @@ export const data = [
     title: 'Nike x Off White',
     price: '650',
     description: 'New Nike Off White collab / never worn / size 43',
-  },
-
-  {
-    type: 'PC',
-    id: 10,
-    mark: 'HP',
-    imageUrl: hp,
-    title: 'HP Pavilion 15',
-    price: '990',
-    description:
-      'Le HP Pavilion 15 offre plus de performances dans un format plus compact, pour vous permettre d’en faire plus où que vous soyez.',
   },
 ];

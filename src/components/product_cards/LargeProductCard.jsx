@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-
+import Avatar from '@mui/material/Avatar';
 const LargeProductCard = ({
   id,
   imageUrl,
@@ -22,26 +22,27 @@ const LargeProductCard = ({
     <div>
       <Card
         style={{
-          width: '90%',
-          height: '60%',
-          padding: '0px',
-          left: '0px',
-          top: '0px',
+          //  width: '90%',
+          height: '640px',
+          padding: '10px',
+          // left: '10px',
+          // top: '0px',
+          maxWidth: '760px',
         }}
       >
         <CardHeader
-          title={mark}
-          action={
-            <Button aria-label='settings'>
-              <CloseIcon />
-            </Button>
+          avatar={
+            <Avatar sx={{ bgcolor: ' red' }} aria-label='Logo'>
+              {mark[0].toUpperCase()}
+            </Avatar>
           }
+          title={mark}
         />
         <CardMedia
           component='img'
           image={imageUrl}
           alt={title}
-          sx={{ maxHeight: '620px', maxWidth: '1200px' }}
+          sx={{ maxHeight: '420px', maxWidth: '720px' }}
         />
         <CardContent>
           <Typography variant='h5' color='text.primary'>
@@ -54,7 +55,7 @@ const LargeProductCard = ({
         <CardActions
           sx={{ flexDirection: 'row-reverse', paddingInlineEnd: '10%' }}
         >
-          <Link variant='' to={`/purchase/:${id}`}>
+          <Link variant='' to={`/Pay-and-Ship-mockup/purchase/:${id}`}>
             <Button
               variant='outlined'
               color='primary'
@@ -62,7 +63,7 @@ const LargeProductCard = ({
               endIcon={<ShoppingCartIcon sx={{ color: 'ButtonText' }} />}
             >
               <Typography variant='body2' color='text.primary'>
-                Next
+                Add to Cart
               </Typography>
             </Button>
           </Link>

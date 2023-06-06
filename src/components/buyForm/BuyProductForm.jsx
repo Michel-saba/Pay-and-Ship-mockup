@@ -15,7 +15,11 @@ export default function BuyProductForm() {
   const [showPaymentMethod, setShowPaymentMethod] = useState(false);
   const [loading, setLoading] = useState(false);
   const [showThanksMessage, setShowThanksMessage] = useState(false);
-  const thanksMessage = 'Thank you for purchasing our product.';
+  const thanksMessageTitle = 'Thank you for your order.';
+  const thanksMessageDescription = 'Your order number is #OrderNumber.';
+  const thanksMessageDescription2 =
+    ' We have emailed your tracking number, please check your e-mails';
+
   const handlePurchase = () => {
     setLoading(true);
     setTimeout(() => {
@@ -60,10 +64,15 @@ export default function BuyProductForm() {
           onClose={() => setShowPaymentMethod(false)}
         >
           <DialogTitle>
-            Thank you for purchasing our product.
+            Payment method
             <IconButton
               aria-label='close'
               onClick={() => setShowPaymentMethod(false)}
+              sx={{
+                position: 'absolute',
+                right: 8,
+                top: 8,
+              }}
             >
               <CloseIcon />
             </IconButton>
@@ -111,7 +120,9 @@ export default function BuyProductForm() {
             </IconButton>
           </DialogTitle>
           <DialogContent>
-            <h2>{thanksMessage}</h2>
+            <h2>{thanksMessageTitle}</h2>
+            <p>{thanksMessageDescription}</p>
+            <p>{thanksMessageDescription2}</p>
           </DialogContent>
         </Dialog>
       }
@@ -128,7 +139,7 @@ export default function BuyProductForm() {
         </Button>
 
         <Button variant='outlined' onClick={() => setShowPaymentMethod(true)}>
-          Buy
+          order
         </Button>
       </div>
     </div>

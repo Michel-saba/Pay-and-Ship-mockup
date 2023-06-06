@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     path: '/Pay-and-Ship-mockup/purchase/:id',
     element: <BuyProductForm></BuyProductForm>,
   },
+
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

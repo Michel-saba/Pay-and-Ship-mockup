@@ -13,6 +13,7 @@ export default function PaymentMethod() {
 
   return (
     <Box
+      minWidth={300}
       component='form'
       sx={{ display: 'flex', gap: 2, flexDirection: 'column' }}
     >

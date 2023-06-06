@@ -27,7 +27,11 @@ export default function DeliveryAddress() {
             flexDirection: 'row',
           }}
         >
-          <Checkbox value={deliveryAble} defaultChecked />
+          <Checkbox
+            value={deliveryAble}
+            defaultChecked
+            onClick={handleChange}
+          />
           <LocalShippingIcon fontSize='large' />
           <img src={dpd_logo} alt={'logo'} width={100} height={60} />
         </div>
@@ -70,6 +74,15 @@ export default function DeliveryAddress() {
                 size='small'
               />
             </RadioGroup>
+            <TextField
+              size='small'
+              name='email'
+              type='email'
+              sx={{ margin: '10px', '&& input': { fontSize: '0.8rem' } }}
+              id='outlined-required'
+              label='Email'
+              placeholder='email@email.com'
+            />
           </FormControl>
         </div>
 
@@ -101,6 +114,14 @@ export default function DeliveryAddress() {
               id='outlined-required'
               label='Code postal'
               defaultValue='75020'
+            />
+            <TextField
+              disabled={!deliveryAble}
+              sx={{ margin: '10px', '&& input': { fontSize: '0.8rem' } }}
+              size='small'
+              id='outlined-required'
+              label='Country'
+              defaultValue='France'
             />
           </div>
         </div>
