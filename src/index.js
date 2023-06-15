@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BuyProductForm from './components/buyForm/BuyProductForm';
+import BuyProductPage from './components/buyForm/BuyProductPage';
 
 import './index.css';
 const router = createBrowserRouter([
@@ -13,9 +13,8 @@ const router = createBrowserRouter([
   },
   {
     path: '/Pay-and-Ship-mockup/purchase/:id',
-    element: <BuyProductForm></BuyProductForm>,
+    element: <BuyProductPage></BuyProductPage>,
   },
-
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

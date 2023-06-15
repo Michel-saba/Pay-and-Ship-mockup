@@ -14,7 +14,7 @@ export const data = [
     mark: 'Adidas',
     imageUrl: ch,
     title: 'Pink Adidas Gazelle',
-    price: '90',
+    price: 90,
     description: 'Brand new pink Adidas Gazelle size 37',
   },
   {
@@ -23,7 +23,7 @@ export const data = [
     imageUrl: nanox3,
     mark: 'Reebok',
     title: 'Reebok Nano X3',
-    price: '60',
+    price: 60,
     description: 'Barely worn black Reebok Nano X3 size 46',
   },
   {
@@ -32,7 +32,7 @@ export const data = [
     mark: 'Nike',
     imageUrl: cortez,
     title: 'Nike Cortez',
-    price: '80',
+    price: 80,
     description: 'Brand new white and green Nike Cortez size 44',
   },
 
@@ -42,7 +42,7 @@ export const data = [
     mark: 'Nike',
     imageUrl: cortez,
     title: 'Nike Cortez',
-    price: '80',
+    price: 80,
     description: 'Brand new white and green Nike Cortez size 44',
   },
   {
@@ -51,7 +51,7 @@ export const data = [
     mark: 'Adidas',
     imageUrl: gazelle,
     title: 'Adidas Gazelle',
-    price: '100',
+    price: 100,
     description: 'Barely worn blue suede Adidas Gazelle size 41',
   },
   {
@@ -60,7 +60,7 @@ export const data = [
     mark: 'NB',
     imageUrl: nb550,
     title: 'NB 550',
-    price: '190',
+    price: 190,
     description: 'Brand new white and black New Balance 550, size 38',
   },
   {
@@ -69,7 +69,7 @@ export const data = [
     mark: 'NB',
     imageUrl: nb2002,
     title: 'NB 2002 mule',
-    price: '160',
+    price: 160,
     description: 'Vintage dark blue New Balance 2002 size 43',
   },
   {
@@ -78,7 +78,7 @@ export const data = [
     mark: 'Nike',
     imageUrl: cortez,
     title: 'Nike Cortez',
-    price: '80',
+    price: 80,
     description: 'Brand new white and green Nike Cortez size 44',
   },
   {
@@ -87,7 +87,7 @@ export const data = [
     mark: 'Nike',
     imageUrl: NLD,
     title: 'Jordan Low Dunk',
-    price: '130',
+    price: 130,
     description:
       'White, grey and black low dunk Jordans in perfect condition, size 44 ',
   },
@@ -97,7 +97,7 @@ export const data = [
     mark: 'Nike',
     imageUrl: NikeX,
     title: 'Nike x Off White',
-    price: '650',
+    price: 650,
     description: 'New Nike Off White collab / never worn / size 43',
   },
 ];
