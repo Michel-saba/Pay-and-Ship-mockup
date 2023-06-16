@@ -23,14 +23,11 @@ function App() {
         elevation={0}
         sx={{
           position: 'relative',
+          backgroundColor: '#dc0032',
           borderBottom: (t) => `1px solid ${t.palette.divider}`,
         }}
       >
-        <Toolbar>
-          <Typography variant='h6' color='inherit' noWrap>
-            Company
-          </Typography>
-        </Toolbar>
+        <Toolbar></Toolbar>
       </AppBar>
 
       <main>

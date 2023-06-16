@@ -18,15 +18,9 @@ export default function ProductTable({
 }) {
   const { id } = useParams();
   const paramId = id.substring(1);
-
   const result = data.find((item) => item.id === Number(paramId));
+  const [product] = useState(result);
 
-  const [product, setProduct] = useState(result);
-
-  // useEffect(() => {
-  //   setDeliveryPrice(delivery_price);
-  //   setDeliveryMode(delivery_mode);
-  // }, [deliveryMode, deliveryMode]);
   function createData(id, description, price) {
     return { id, description, price };
   }
@@ -36,25 +30,24 @@ export default function ProductTable({
     <>
       {product && (
         <div>
-          <TableContainer sx={{ width: '95%' }}>
+          <TableContainer>
             <Table aria-label='commend'>
-              <TableHead sx={{ backgroundColor: '#e9e6e6', padding: 3 }}>
+              <TableHead sx={{ backgroundColor: '#dc0032', padding: 3 }}>
                 <TableRow>
-                  <TableCell
-                    // sx={{ paddingBottom: '1px ', fontSize: 'small' }}
-                    align='left'
-                  >
+                  <TableCell sx={{ color: 'white' }} align='left'>
                     Command N
                   </TableCell>
                   <TableCell
                     //  sx={{ paddingBottom: '1px ', fontSize: 'small' }}
                     align='left'
+                    sx={{ color: 'white' }}
                   >
                     description&nbsp;
                   </TableCell>
                   <TableCell
                     //  sx={{ paddingBottom: '1px ', fontSize: 'small' }}
                     align='left'
+                    sx={{ color: 'white' }}
                   >
                     Price&nbsp;
                   </TableCell>
