@@ -24,7 +24,7 @@ export default function DeliveryForm({ open, onClose, onSave }) {
   };
 
   return (
-    <Dialog open={open}>
+    <Dialog open={open} fullScreen>
       <DialogTitle> Delivery information</DialogTitle>
       <DialogContent>
         <Box component='form' onSubmit={handleSubmit} sx={{ mt: 1, p: 1 }}>
